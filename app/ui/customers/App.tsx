@@ -22,7 +22,6 @@ const App = () => {
 
 interface HeadlineProps {
     headline:string;
-    // onChangeHeadline: (e:any)=>any
 }
 
 const Headline:React.FC<HeadlineProps> = ({ headline }) => (
